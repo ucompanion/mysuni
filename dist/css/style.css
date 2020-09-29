@@ -9315,7 +9315,19 @@ body > .center-content .align.error404 .back { width: 9.875rem; height: 3rem; fo
 
 .aside-learning .aside-learning-list ul li:first-child { padding-top: 0; }
 
-.mylearning-new-contents { float: none; overflow: hidden; padding: 3.125rem; }
+.mylearning-new-contents { float: none; overflow: hidden; padding: 1.875rem 3.125rem; }
+
+.mylearning-new-contents .main-info-learing { position: relative; width: 57.5rem; height: 11.25rem; margin: 0 auto 3.125rem; border: solid 1px #6c788f; background-color: #ffffff; border-radius: 0.5rem; box-shadow: 0 3px 5px -3px #c9d3e6; }
+
+.mylearning-new-contents .main-info-learing .clear-btn { position: absolute; top: 1.6875rem; right: 1.6875rem; width: 1.5rem; height: 1.5rem; cursor: pointer; }
+
+.mylearning-new-contents .main-info-learing .main-info-learing-text { text-align: center; padding: 1.875rem 0; }
+
+.mylearning-new-contents .main-info-learing .main-info-learing-text .learning-status { padding: 0 0 0.5rem; font-family: NotoSansCJKkr-Regular; font-size: 1rem; color: #666666; }
+
+.mylearning-new-contents .main-info-learing .main-info-learing-text .learning-title { padding: 0 0 1.3125rem; font-family: NotoSansCJKkr; font-size: 1.125rem; font-weight: bold; letter-spacing: -0.025rem; text-decoration: underline; }
+
+.mylearning-new-contents .main-info-learing .main-info-learing-text .learning-button { width: 10rem; height: 2.5rem; border-radius: 0.25rem; background-color: #ff664d; color: #ffff; font-family: NotoSansCJKkr-Medium; font-size: 0.875rem; }
 
 .mylearning-new-contents .main-info-area { background: 0; }
 

@@ -9369,7 +9369,19 @@ body > .center-content .align.error404 .back { width: 9.875rem; height: 3rem; fo
 
 .aside-learning .aside-learning-list ul li:first-child { padding-top: 0; }
 
-.mylearning-new-contents { float: none; overflow: hidden; padding: 3.125rem; }
+.mylearning-new-contents { float: none; overflow: hidden; padding: 1.875rem 3.125rem; }
+
+.mylearning-new-contents .main-info-learing { position: relative; width: 57.5rem; height: 11.25rem; margin: 0 auto 3.125rem; border: solid 1px #6c788f; background-color: #ffffff; border-radius: 0.5rem; -webkit-box-shadow: 0 3px 5px -3px #c9d3e6; box-shadow: 0 3px 5px -3px #c9d3e6; }
+
+.mylearning-new-contents .main-info-learing .clear-btn { position: absolute; top: 1.6875rem; right: 1.6875rem; width: 1.5rem; height: 1.5rem; cursor: pointer; }
+
+.mylearning-new-contents .main-info-learing .main-info-learing-text { text-align: center; padding: 1.875rem 0; }
+
+.mylearning-new-contents .main-info-learing .main-info-learing-text .learning-status { padding: 0 0 0.5rem; font-family: NotoSansCJKkr-Regular; font-size: 1rem; color: #666666; }
+
+.mylearning-new-contents .main-info-learing .main-info-learing-text .learning-title { padding: 0 0 1.3125rem; font-family: NotoSansCJKkr; font-size: 1.125rem; font-weight: bold; letter-spacing: -0.025rem; text-decoration: underline; }
+
+.mylearning-new-contents .main-info-learing .main-info-learing-text .learning-button { width: 10rem; height: 2.5rem; border-radius: 0.25rem; background-color: #ff664d; color: #ffff; font-family: NotoSansCJKkr-Medium; font-size: 0.875rem; }
 
 .mylearning-new-contents .main-info-area { background: 0; }
 
@@ -9487,11 +9499,11 @@ body > .center-content .align.error404 .back { width: 9.875rem; height: 3rem; fo
 
 .mylearning-new-contents .contents.overview .teacher-info .item .detail .teacher { display: inline-block; padding: 0 1.875rem 1.5rem 0; cursor: pointer; }
 
-.mylearning-new-contents .contents.overview .teacher-info .item .detail .teacher .hover-content1 { display: none; }
+.mylearning-new-contents .contents.overview .teacher-info .item .detail .teacher .hover-content { display: none; }
 
-.mylearning-new-contents .contents.overview .teacher-info .item .detail .teacher:hover .hover-content1 { z-index: 1; display: block; position: absolute; top: 9.375rem; width: 4.875rem; height: 4.9375rem; border-radius: 0.125rem; border: solid 2px #6c788f; background-color: #ffffff; }
+.mylearning-new-contents .contents.overview .teacher-info .item .detail .teacher:hover .hover-content { z-index: 1; display: block; position: absolute; top: 9.375rem; width: 4.875rem; height: 4.9375rem; border-radius: 0.125rem; border: solid 2px #6c788f; background-color: #ffffff; }
 
-.mylearning-new-contents .contents.overview .teacher-info .item .detail .teacher:hover .hover-content1::after { border-top: 0px solid #6c788f; border-left: 5px solid #6c788f; border-right: 5px solid transparent; border-bottom: 10px solid #ffffff; content: ""; position: absolute; top: -10px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }
+.mylearning-new-contents .contents.overview .teacher-info .item .detail .teacher:hover .hover-content::after { border-top: 0px solid #6c788f; border-left: 5px solid #6c788f; border-right: 5px solid transparent; border-bottom: 10px solid #ffffff; content: ""; position: absolute; top: -0.625rem; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }
 
 .mylearning-new-contents .contents.overview .teacher-info .item .detail .teacher:nth-child(1) { padding: 0 1.875rem 1.5rem 0; }
 
